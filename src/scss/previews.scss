@@ -1,0 +1,36 @@
+.previews-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    &__content{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    &__content_row{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        @media (max-width: 1250px) {
+            max-width: 580px;
+        }
+    }
+}
+
+@media (max-width: 630px) {
+    .previews-section {
+        margin: 0 auto;
+        &__content{
+            width: 100%;
+        }
+        max-width: 300px;
+        &__content_row{
+            & > img {
+             width: 140px;
+            }
+        }
+    }
+}

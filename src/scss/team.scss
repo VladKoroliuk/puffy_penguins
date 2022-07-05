@@ -1,0 +1,54 @@
+.team-section{
+    margin-top: 200px;
+}
+.team-carts-body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.team-carts{
+    display: flex;
+    gap: 31px;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 848px;
+}
+.team-cart{
+    transition: .5s;
+    background: none;
+    &:hover{
+        background: #731EED;
+    }
+    border: 2px solid #FFFFFF;
+    border-radius: 26px;
+    padding: 18px 28px;
+    display: inline-block;
+    &__img{
+
+    }
+    &__info{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.team-cart-name{
+    font-family: 'Chewy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 47px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 12px;
+}
+.team-cart-role{
+    font-family: 'Chewy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 27px;
+}
